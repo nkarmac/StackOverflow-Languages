@@ -21,6 +21,7 @@ def next(month, year):
 
 import csv
 
+
 for lang in languages:
 
     year = 2008
@@ -34,12 +35,19 @@ for lang in languages:
     while (year <= 2019 and month <= 2) or year < 2019:
         date = str(year) + '-' + stringmonth(month)
         filename = './all-tags/' + date + '.csv'
+
+        tagfound = False
+
         with open(filename, 'r') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
             for row in csv_reader:
                 if lang == row[0]:
+                    tagfound = True
                     tagcount[date] = row[1]
         
+        if tagfound == False:
+            tagcount[date] = 0
+            
         month, year = next(month, year)
         nextmonth, nextyear = next(nextmonth, nextyear)
     
@@ -48,5 +56,5 @@ for lang in languages:
     with open(outputfile, 'w') as out_csv_file:
         csv_out = csv.writer(out_csv_file)
         csv_out.writerow(['date', 'count'])
-        for date in tagcount:
+        for date in sorted(tagcount):
             csv_out.writerow([date, tagcount[date]])
