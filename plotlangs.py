@@ -10,6 +10,7 @@ import pandas as pd
 import csv
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
+import numpy as np
 
 for lang in languages:
     filename = './languages/' + lang + '.csv'
@@ -19,6 +20,9 @@ for lang in languages:
     x = df['date']
     y = df['count']
 
+    diff = np.diff(y)
+    diff = np.insert(diff, 0, 0)
+
     tick_spacing = 3
 
     fig, ax = plt.subplots(1,1)
@@ -26,4 +30,18 @@ for lang in languages:
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     plt.gcf().autofmt_xdate()
     plt.gcf().set_size_inches(25.5, 10.5)
+    plt.title(lang)
+    plt.xlabel('date')
+    plt.ylabel('posts')
+    plt.savefig(outputfile, dpi=100)
+
+    outputfile = './languages/' + lang + '_slope' + '.png'
+    fig, ax = plt.subplots(1,1)
+    ax.plot(x,diff)
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
+    plt.gcf().autofmt_xdate()
+    plt.gcf().set_size_inches(25.5, 10.5)
+    plt.title(lang + ' slope')
+    plt.xlabel('date')
+    plt.ylabel('posts')
     plt.savefig(outputfile, dpi=100)
