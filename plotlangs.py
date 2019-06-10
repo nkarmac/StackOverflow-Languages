@@ -28,6 +28,7 @@ for lang in languages:
     fig, ax = plt.subplots(1,1)
     ax.plot(x,y)
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
+    ax.set_ylim(top=25000)
     plt.gcf().autofmt_xdate()
     plt.gcf().set_size_inches(25.5, 10.5)
     plt.title(lang)
