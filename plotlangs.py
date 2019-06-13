@@ -14,51 +14,32 @@ import numpy as np
 import datetime as dt
 import matplotlib.dates as mdates
 
+years = [i for i in range(2008,2020)]
+months = [i for i in range(1,13)]
+dates = []
+for year in years:
+    for month in months:
+        if (year == 2008 and month < 8) or (year == 2019 and month > 2):
+            continue
+        dates.append(dt.datetime(year,month,1))
+
 for lang in languages:
     filename = './languages/' + lang + '.csv'
-    outputfile = './languages/' + lang + '.png'
+    outputfile = './languages/' + lang + '_bestfit.png'
     df = pd.read_csv(filename)
 
-    x = df['date']
-    y = df['count']
-
-    diff = np.diff(y)
-    diff = np.insert(diff, 0, 0)
-
-    tick_spacing = 3
-
-    fig, ax = plt.subplots(1,1)
-    ax.plot(x,y)
-    ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
-    plt.gcf().autofmt_xdate()
-    plt.gcf().set_size_inches(25.5, 10.5)
-    plt.title(lang)
-    plt.xlabel('date')
-    plt.ylabel('posts')
-    plt.savefig(outputfile, dpi=100)
-
-    years = [i for i in range(2008,2020)]
-    months = [i for i in range(1,13)]
-    dates = []
-    for year in years:
-        for month in months:
-            if (year == 2008 and month < 8) or (year == 2019 and month > 2):
-                continue
-            dates.append(dt.datetime(year,month,1))
-
-    print(diff)
     x = mdates.date2num(dates)
-    z = np.polyfit(x,diff,52)
+    y = df['count']
+    z = np.polyfit(x,y,52)
     f = np.poly1d(z)
-    
-    outputfile = './languages/' + lang + '_slope' + '.png'
+
     fig, ax = plt.subplots()
     xx = np.linspace(x.min(), x.max(), 100)
     dd = mdates.num2date(xx)
     ax.plot(dd,f(xx), '-g')
-    ax.plot(dates,diff,'x',color='b')
+    ax.plot(dates,y,'x',color='b')
     plt.gcf().autofmt_xdate()
     plt.gcf().set_size_inches(25.5, 10.5)
-    plt.title(lang + ' slope')
+    plt.title(lang + ' best fit')
     plt.ylabel('posts')
     plt.savefig(outputfile, dpi=100)
