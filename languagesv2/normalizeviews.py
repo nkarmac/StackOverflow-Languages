@@ -1,10 +1,9 @@
 languages = [
-'python'
-#'java','c','c++','python','.net', 'c#', 'javascript', 'sql','php','assembly',
-#'objective-c', 'delphi', 'perl','matlab','ruby','vba','groovy','swift','go','r',
-#'sas','abap','fortran', 'dart','scala', 'prolog', 'lisp', 'lua', 'rust', 'ada',
-#'f#', 'apex', 'kotlin', 'scheme', 'labview', 'typescript', 'julia', 'awk', 'haskell',
-#'clojure', 'erlang', 'bash', 'elixir', 'html', 'vhdl', 'verilog', 'jquery', 'reactjs'
+'java','c','c++','python','.net', 'c#', 'javascript', 'sql','php','assembly',
+'objective-c', 'delphi', 'perl','matlab','ruby','vba','groovy','swift','go','r',
+'sas','abap','fortran', 'dart','scala', 'prolog', 'lisp', 'lua', 'rust', 'ada',
+'f#', 'apex', 'kotlin', 'scheme', 'labview', 'typescript', 'julia', 'awk', 'haskell',
+'clojure', 'erlang', 'bash', 'elixir', 'html', 'vhdl', 'verilog', 'jquery', 'reactjs'
 ]
 
 import csv
@@ -19,9 +18,13 @@ for lang in languages:
         g = 127
         for row in data:
             if i == 0:
+                row.append(row[2])
+                row[2] = "normalized viewcount"
+                row[5] = "total viewcount"
                 writer.writerow(row)
                 i += 1
                 continue
+            row.append(row[2])
             row[2] = str(int(int(row[2]) / g))
             writer.writerow(row)
             g -= 1
