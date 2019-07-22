@@ -21,50 +21,50 @@ for(language in languages)
   g1 <- ggplot(lang, aes(Date, count)) +
     geom_point(
       aes(Date, count),
-      size = 1, colour = "blue") +
-    geom_smooth(aes(Date,count), colour = "green")
+      size = 1, colour = "green") +
+    geom_smooth(aes(Date,count), colour = "blue")
   
   g2 <- ggplot(lang, aes(Date, viewcount)) +
     geom_point(
       aes(Date, viewcount),
-      size = 1, colour = "blue") +
-    geom_smooth(aes(Date,viewcount), colour = "green")
+      size = 1, colour = "green") +
+    geom_smooth(aes(Date,viewcount), colour = "blue")
   
   g3 <- ggplot(lang, aes(Date, positive)) +
     geom_point(
       aes(Date, positive),
-      size = 1, colour = "blue") +
-    geom_smooth(aes(Date,positive), colour = "green")
+      size = 1, colour = "green") +
+    geom_smooth(aes(Date,positive), colour = "blue")
   
   g4 <- ggplot(lang, aes(Date, negative)) +
     geom_point(
       aes(Date, negative),
-      size = 1, colour = "blue") +
-    geom_smooth(aes(Date,negative), colour = "green")
+      size = 1, colour = "green") +
+    geom_smooth(aes(Date,negative), colour = "blue")
   
   p1 <- ggplot(lang, aes(Date, count)) +
     geom_point(
       aes(Date, count),
-      size = 1, colour = "blue") +
-    geom_smooth(aes(Date,count), colour = "green", span = 0.1)
+      size = 1, colour = "green") +
+    geom_smooth(aes(Date,count), colour = "blue", span = 0.1)
   
   p2 <- ggplot(lang, aes(Date, viewcount)) +
     geom_point(
       aes(Date, viewcount),
-      size = 1, colour = "blue") +
-    geom_smooth(aes(Date,viewcount), colour = "green", span = 0.1)
+      size = 1, colour = "green") +
+    geom_smooth(aes(Date,viewcount), colour = "blue", span = 0.1)
   
   p3 <- ggplot(lang, aes(Date, positive)) +
     geom_point(
       aes(Date, positive),
-      size = 1, colour = "blue") +
-    geom_smooth(aes(Date,positive), colour = "green", span = 0.1)
+      size = 1, colour = "green") +
+    geom_smooth(aes(Date,positive), colour = "blue", span = 0.1)
   
   p4 <- ggplot(lang, aes(Date, negative)) +
     geom_point(
       aes(Date, negative),
-      size = 1, colour = "blue") +
-    geom_smooth(aes(Date,negative), colour = "green", span = 0.1)
+      size = 1, colour = "green") +
+    geom_smooth(aes(Date,negative), colour = "blue", span = 0.1)
   
   myplot <- plot_grid(g1, g2, g3, g4, p1, p2, p3, p4, ncol = 4, labels = 'auto')
   title <- ggdraw() + draw_label(language, fontface='bold')
