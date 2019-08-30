@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 kotlin, 0.9089, 0.8734, 0.9451, 0.7383
 python, 0.8795, 0.7686, 0.8671, 0.5788
 go, 0.8716, 0.7021, 0.9398, 0.5849

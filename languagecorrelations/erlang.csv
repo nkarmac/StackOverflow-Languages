@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 ruby, 0.8327, 0.7410,0.5404, 0.5129
 vb.net, 0.8032, 0.6654,0.5154, 0.3922
 clojure, 0.8008, 0.6551,0.4226, 0.4268

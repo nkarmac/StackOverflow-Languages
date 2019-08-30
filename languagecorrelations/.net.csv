@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 actionscript-3, 0.9385, 0.9541,0.6037, 0.8244
 delphi, 0.7941, 0.8634,0.8752, 0.5563
 objective-c, 0.7126, 0.6325,0.6731, 0.4723

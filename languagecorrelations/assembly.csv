@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 c, 0.9430, 0.8377,0.8800, 0.5634
 java, 0.9300, 0.8760,0.8874, 0.6331
 haskell, 0.9283, 0.8571,0.6349, 0.5208

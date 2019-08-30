@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 c,0.8460, 0.7432, 0.6036, 0.3871
 c++,0.8271, 0.7377, 0.5624, 0.4501
 assembly,0.8096, 0.6941, 0.5842, 0.3422

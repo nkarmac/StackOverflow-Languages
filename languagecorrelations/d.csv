@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 objective-c, 0.7834, 0.7743,0.1494, 0.3193
 ruby, 0.7614, 0.7790,0.3471, 0.4551
 perl, 0.7414, 0.6473,0.2448, 0.4341

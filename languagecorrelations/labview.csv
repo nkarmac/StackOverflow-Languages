@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 scala, 0.7358, 0.4683,0.5089, 0.3865
 vba, 0.7280, 0.5224,0.5348, 0.2860
 javascript, 0.7265, 0.4902,0.5596, 0.2751

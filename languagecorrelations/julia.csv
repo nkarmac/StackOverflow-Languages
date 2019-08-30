@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 go, 0.9591, 0.9070, 0.6043, 0.6936
 r, 0.9279, 0.8602, 0.6476, 0.4798
 powershell, 0.9247, 0.8140, 0.6067, 0.1892

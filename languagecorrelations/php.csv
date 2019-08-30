@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 c#,0.9825, 0.8615,0.9586, 0.8146
 c++,0.9801, 0.9095,0.9230, 0.7747
 java,0.9763, 0.9608,0.9551, 0.9521

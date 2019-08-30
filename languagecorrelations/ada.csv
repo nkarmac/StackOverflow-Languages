@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 c,0.7167, 0.5664,0.4657, 0.2395
 haskell,0.7146, 0.5187,0.3628, 0.6640
 assembly,0.7009, 0.5053,0.3722, 0.4029

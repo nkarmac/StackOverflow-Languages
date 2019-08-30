@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 objective-c, 0.9481, 0.9067, 0.7733, 0.6401
 delphi, 0.9083, 0.8796, 0.8142, 0.7502
 coffeescript, 0.8902, 0.7706, 0.5912, 0.4501

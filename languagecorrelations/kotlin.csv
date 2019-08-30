@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 typescript, 0.9089, 0.8734, 0.9451, 0.7383
 dart, 0.7921, 0.5616, 0.7796, 0.7322
 python, 0.7656, 0.6282, 0.7872, 0.4804

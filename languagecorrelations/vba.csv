@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 powershell, 0.9801, 0.9546,0.9295, 0.7784
 r, 0.9774, 0.9545,0.9551, 0.7541
 scala, 0.9622, 0.8756,0.9092, 0.3951

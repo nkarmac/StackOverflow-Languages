@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 javascript, 0.9271, 0.8317,0.8799, 0.4594
 bash, 0.9243, 0.8504,0.8408,-0.0701
 scala, 0.9057, 0.8307,0.7382, 0.7604

@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 c,0.9834, 0.9757,0.9745, 0.9247
 php,0.9801, 0.9095,0.9230, 0.7747
 c#,0.9740, 0.9470,0.9642, 0.8968

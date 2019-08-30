@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 java, 0.9529, 0.8584,0.8212, 0.6977
 html, 0.9483, 0.8892,0.8359, 0.6871
 sql, 0.9443, 0.8435,0.8321, 0.4556

@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 java,0.9598, 0.9319,0.6944, 0.4119
 c++,0.9421, 0.8496,0.7641, 0.5064
 c,0.9416, 0.8114,0.7181, 0.3688

@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 verilog, 0.6800, 0.4006,0.4257, 0.1205
 assembly, 0.6769, 0.3351,0.4731, 0.1674
 java, 0.6715, 0.3173,0.4471, 0.2790

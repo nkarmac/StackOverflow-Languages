@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 go, 0.9422, 0.8657, 0.8987, 0.6590
 swift, 0.9296, 0.8953, 0.7524, 0.5635
 julia, 0.9168, 0.8976, 0.4986, 0.7929

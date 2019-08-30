@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 go, 0.8565, 0.7060, 0.5348, 0.6663
 r, 0.8506, 0.6217, 0.6147, 0.4786
 python, 0.8501, 0.5910, 0.6135, 0.4981

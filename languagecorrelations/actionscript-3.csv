@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 .net, 0.9385, 0.9541, 0.6037, 0.8244
 delphi, 0.8346, 0.8823, 0.6101, 0.7690
 objective-c, 0.7936, 0.6616, 0.7577, 0.6739

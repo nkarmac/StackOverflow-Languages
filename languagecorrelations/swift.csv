@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 rust, 0.9296, 0.8953, 0.7524, 0.5635
 julia, 0.9138, 0.8998, 0.6767, 0.5138
 elixir, 0.9068, 0.8986, 0.6874, 0.5648

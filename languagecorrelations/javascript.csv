@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 bash, 0.9891, 0.9496,0.9606, 0.5597
 html, 0.9845, 0.9858,0.9846, 0.8717
 scala, 0.9735, 0.9692,0.8192, 0.4335

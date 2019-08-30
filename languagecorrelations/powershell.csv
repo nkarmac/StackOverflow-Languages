@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 r, 0.9862, 0.9411,0.9277, 0.7570
 vba, 0.9801, 0.9546,0.9295, 0.7784
 python, 0.9788, 0.9518,0.9527, 0.6623

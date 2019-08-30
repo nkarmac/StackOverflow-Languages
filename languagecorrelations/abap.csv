@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 python, 0.8512, 0.6390, 0.6202, 0.4634
 powershell, 0.8378, 0.6001, 0.5833, 0.3319
 go, 0.8324, 0.5397, 0.6377, 0.4328

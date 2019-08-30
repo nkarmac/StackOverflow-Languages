@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 javascript, 0.9891, 0.9496,0.9606, 0.5597
 html, 0.9801, 0.9528,0.9274, 0.7658
 awk, 0.9749, 0.9379,0.9400, 0.6515

@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 php,0.9825, 0.8615,0.9586, 0.8146
 c++,0.9740, 0.9470,0.9642, 0.8968
 java,0.9483, 0.8490,0.9806, 0.8726

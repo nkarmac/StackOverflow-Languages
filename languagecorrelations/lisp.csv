@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 scheme, 0.7632, 0.6581, 0.6420, 0.4774
 delphi, 0.6992, 0.7884, 0.5980, 0.4551
 common-lisp, 0.6849, 0.5320, 0.8636, 0.6116

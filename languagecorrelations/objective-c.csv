@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 perl, 0.9481, 0.9067, 0.7733, 0.6401
 delphi, 0.9260, 0.8653, 0.7442, 0.7927
 coffeescript, 0.8905, 0.8809, 0.7709, 0.7423

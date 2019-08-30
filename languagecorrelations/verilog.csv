@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 vhdl, 0.8986, 0.8118,0.6891, 0.7552
 bash, 0.8979, 0.8138,0.8133, 0.2159
 awk, 0.8899, 0.7550,0.7520, 0.4350

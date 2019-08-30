@@ -1,4 +1,4 @@
-language,count,positive,negative,normalized views
+Language,Questions,Positive,Negative,Views
 matlab, 0.9130, 0.8519,0.6660, 0.6458
 java, 0.9081, 0.8141,0.7174, 0.6359
 awk, 0.8990, 0.7753,0.7087, 0.5232
